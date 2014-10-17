@@ -1,10 +1,11 @@
 package com.github.vshushkov.balancer;
 
+import java.io.IOException;
 import java.util.List;
 
 public class Runner {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         if (args.length == 0) {
             System.err.println("Please, specify comma-separated hosts list!");
             System.exit(1);
